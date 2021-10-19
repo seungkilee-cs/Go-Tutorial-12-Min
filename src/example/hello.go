@@ -10,6 +10,7 @@ func sum(x int, y int) int {
 	return x + y
 }
 
+// specify the return value(s)
 func sqrt(x float64) (float64, error) {
 	if x < 0 {
 		return 0, errors.New("Square Root Undefined for Negative Number")
